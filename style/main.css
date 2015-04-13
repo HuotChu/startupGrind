@@ -1,0 +1,222 @@
+body {
+    background: #DCDCDC;
+    color: #262626;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+article {
+    display: block;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 90%;
+    margin: 10px 0;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+#pageHeader {
+    background: #000000;
+    display: block;
+    overflow: hidden;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+#logo {
+    padding: 0 40px;
+}
+
+#discussions {
+    padding: 15px;
+}
+
+#discussions > div:first-child {
+    position: relative;
+    top: 4em;
+    left: 8em;
+}
+
+#discussions > h1, #discussions > p, #discussions > h2 {
+    width: fit-content;
+    width: intrinsic;
+    margin: 1em auto;
+    color: #474747;
+}
+
+#discussions > h1 {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+#discussions > h2 {
+    font-weight: 500;
+    font-size: 2em;
+}
+
+#discussions > hr {
+    margin-left: 4em;
+}
+
+#posts {
+    padding: 0 4em;
+}
+
+.post {
+    margin: 2em;
+    line-height: 1.5em;
+}
+
+.postContainer {
+    padding-bottom: 10px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.postContainer:before, .postContainer:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.postContainer:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+    -moz-transform:skew(8deg) rotate(3deg);
+    -ms-transform:skew(8deg) rotate(3deg);
+    -o-transform:skew(8deg) rotate(3deg);
+    transform:skew(8deg) rotate(3deg);
+}
+
+.postContainer p {
+    width: 75%;
+}
+
+.author {
+    padding-top: 15px;
+    font-size: 1.1em;
+}
+
+.comments {
+    background: #E2D5D5;
+    padding: 10px 0;
+    width: 70%;
+    position: relative;
+    top: 0;
+    left: 8em;
+    line-height: 1.3em;
+}
+
+.comment {
+    margin: 0 3.5em;
+}
+
+.comment a {
+    margin-left: 5px;
+}
+
+.comment .author {
+    text-align: center;
+}
+
+.commentAdd {
+    width: 25%;
+    margin: 20px 0 0 8em;
+}
+
+.temple {
+    width: 75%;
+    margin: 0 auto;
+    background: #f3f3f3;
+    padding-top: 10px;
+    min-height: 1000px;
+    height: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.6);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.topic {
+    margin: 2.5em 0 0 5em;
+    min-height: 12em;
+}
+
+.topic h1 {
+    font-size: 2em;
+    margin-right: 5em;
+}
+
+.topic h2 {
+
+}
+
+.topic p {
+
+}
+
+.dateBlock {
+    background: #2B2B2B;
+    color: #DDDBDB;
+    float: left;
+    text-align: center;
+    padding: 5px 10px 0 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin-right: 1em;
+    max-width: 4em;
+}
+
+.dateBlock p {
+    background: #f3f3f3;
+    color: #262626;
+    font-weight: 100;
+    font-size: 0.5em;
+    line-height: 1.5em;
+    margin: 10px 0;
+}
+
+.remove {
+    display: none;
+}
+
+.show {
+    visibility: visible;
+}
+
+.hide {
+    visibility: hidden;
+}

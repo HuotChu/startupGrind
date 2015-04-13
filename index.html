@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Startup Grind - UI/UX Discussion</title>
+
+    <!--[if lt IE 9]>
+        <script src="lib/html5shiv-printshiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header id="pageHeader">
+        <img src="style/images/logo.png" alt="Startup Grind Logo" id="logo" />
+    </header>
+    <div class="temple"></div>
+
+<script>
+    var require = {
+        baseUrl: '',
+        deps: ['js/app'],
+        callback: function(app) {
+            app.start();
+        }
+    };
+</script>
+
+<script src="lib/require.js"></script>
+
+<link rel="stylesheet" href="style/main.css?v=1.0" />
+
+</body>
+</html>

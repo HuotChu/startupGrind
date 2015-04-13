@@ -1,0 +1,30 @@
+{
+  "topics": [
+    {
+      "name": "topic_01",
+      "id": 1,
+      "title": "UI vs UX",
+      "discussion": "What's the difference between UI and UX design?",
+      "author": "Camille",
+      "datetime": "2015-01-23T18:25:43.511Z"
+    },
+    {
+      "name": "topic_02",
+      "id": 2,
+      "title": "Responsive vs Flexible",
+      "discussion": "What's the difference between Responsive and Flexible design?",
+      "author": "Steven",
+      "author_id": 5,
+      "datetime": "2015-01-22T13:30:10.511Z"
+    },
+    {
+      "name": "topic_03",
+      "id": 3,
+      "title": "This vs That",
+      "discussion": "What's the difference between This and That?",
+      "author": "Brady",
+      "author_id": 4,
+      "datetime": "2015-01-21T13:30:10.511Z"
+    }
+  ]
+}

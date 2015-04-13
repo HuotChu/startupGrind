@@ -1,0 +1,110 @@
+{
+  "discussion": {
+    "id": 3,
+    "title": "This vs That",
+    "discussion": "What's the difference between This and That?",
+    "author": "Brady",
+    "author_id": 4,
+    "datetime": "2015-01-21T13:30:10.511Z",
+    "comments": [
+      {
+        "id": 1,
+        "author": "Dan",
+        "author_id": 2,
+        "datetime": "2015-01-23T18:31:43.511Z",
+        "comment": "There is a lot of this and that in this thread.<br><br>Simply put: THIS is the <strong>overall</strong> this. That is typically just a reference to this.",
+        "public": true,
+        "deleted": false,
+        "comments": [
+          {
+            "id": 2,
+            "author": "James",
+            "author_id": 3,
+            "datetime": "2015-01-24T10:15:03.511Z",
+            "comment": "I think this gets it right much more than other answers, but that could also include other things I think. Where do those go here? I also disagree with how you've placed this... anyone who works in this would disagree with that definition.",
+            "public": true,
+            "deleted": false
+          },
+          {
+            "id": 4,
+            "author": "Camille",
+            "author_id": 1,
+            "datetime": "2015-02-21T10:55:43.511Z",
+            "comment": "",
+            "public": true,
+            "deleted": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "author": "Todd",
+        "author_id": 6,
+        "datetime": "2015-02-10T11:25:43.511Z",
+        "comment": "This is an activity/discipline that focuses on the way someone interfaces with that. This is an activity/discipline that is part of the that umbrella.<br><br>This is an umbrella term that refers to pretty much any activity/discipline associated with that.",
+        "public": true,
+        "deleted": false,
+        "comments": []
+      },
+      {
+        "id": 7,
+        "author": "Jeff",
+        "author_id": 8,
+        "datetime": "2015-02-23T11:55:43.511Z",
+        "comment": "This is this. In other words, that is that. There are many other components that play into the this-ness and that-ness, therefore this is a more holistic view of that.",
+        "public": true,
+        "deleted": false,
+        "comments": []
+      },
+      {
+        "id": 8,
+        "author": "Brady",
+        "author_id": 4,
+        "datetime": "2015-03-13T21:02:14.511Z",
+        "comment": "This refers to what that interfaces with, such as those. There are many more elements to this, such as that -- how those are categorised and presented, usually to emphasise certain aspects or facilitate certain things. There is also this testing, which tests how easy to use and understand the this is. Then there's that design, which deals with the look and feel of that. There are many other aspects to this because that is more than just this, it is anything and everything.",
+        "public": true,
+        "deleted": false,
+        "comments": [
+          {
+            "id": 6,
+            "author": "Andy",
+            "author_id": 7,
+            "datetime": "2015-03-20T16:55:43.511Z",
+            "comment": "I'd suggest that this is part of design, not the other way around. It depends on that, though, as some are pretty much this. But many (the good ones!) are about this, that, and the other.",
+            "public": true,
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "author": "Chrys",
+        "author_id": 9,
+        "datetime": "2015-03-26T14:12:43.511Z",
+        "comment": "It's like this. The utensils, plate, table, chair, those are things. The food, service, ambience, those are things, too.",
+        "public": true,
+        "deleted": false,
+        "comments": [
+          {
+            "id": 11,
+            "author": "Laís",
+            "author_id": 10,
+            "datetime": "2015-03-26T16:55:43.511Z",
+            "comment": "I think a better analogy may be this = making sure that is complete, that is the correct size, and that is comfortable. That = making this look & feel fantastic.",
+            "public": true,
+            "deleted": false
+          },
+          {
+            "id": 12,
+            "author": "Brady",
+            "author_id": 4,
+            "datetime": "2015-03-27T11:23:45.511Z",
+            "comment": "Can't one argue then that this is a subset of that since this affects/contributes to that? If the this is trashy then that also suffers.",
+            "public": true,
+            "deleted": false
+          }
+        ]
+      }
+    ]
+  }
+}
