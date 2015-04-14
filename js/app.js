@@ -185,6 +185,10 @@ define(['./temple', './request', './notify'], function(temple, request, notify) 
                 el.addEventListener('click', notify.publisher);
             });
 
+        }).catch(function(err) {
+            console.log('Something broke...', err);
+
+            throw err;
         });
     };
 
